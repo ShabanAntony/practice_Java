@@ -29,5 +29,8 @@ public class TestClass {
         dog.setWeight(20);
         System.out.println("Dog weight is: " + dog.getWeight());
 
+        dog.sound();
+        cat.sound();
+
     }
 }
